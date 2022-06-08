@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background: #29bdc1;
+    color: white;
+
+
+}
+
+.squere {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.placeholder {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    border: 3px solid red;
+
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
+
+.grey {
+    background: grey;
+}
+
+.play_again {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}

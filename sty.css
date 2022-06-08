@@ -1,0 +1,93 @@
+body {
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.grow3 {
+    flex: 3;
+}
+
+.grow1 {
+    flex: 1;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+/*SYMBOLS*/
+
+.symbol {
+    background-image: url("https://www.esquireme.com/cloud/2021/09/09/rock_paper_scissors__2x.png");
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
+
+.rock {
+    background-position: -40px 420px;
+}
+
+.paper {
+    background-position: 240px 420px;
+}
+
+.scissors {
+    background-position: 520px 420px;
+}
+
+.game {
+    height: 250px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #FFEA00;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
+.selected {
+    border: 5px solid black;
+}
+
+.niceHover:hover {
+    transform: scale(1.1);
+}
