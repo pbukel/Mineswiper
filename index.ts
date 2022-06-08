@@ -15,6 +15,7 @@ createGrid(kavadrateliuSkaicius)
 
 function createGrid (gridas:number):void {
   placeholder.innerHTML = ""
+  gameover.innerHTML = ""
   result.innerText = `${counter}`
   //sukuriam kvadratelius
   for (let x=1; x<=gridas; x++ ){

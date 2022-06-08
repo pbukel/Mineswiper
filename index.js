@@ -11,6 +11,7 @@ let kavadrateliuSkaicius = 100;
 createGrid(kavadrateliuSkaicius);
 function createGrid(gridas) {
     placeholder.innerHTML = "";
+    gameover.innerHTML = "";
     result.innerText = `${counter}`;
     //sukuriam kvadratelius
     for (let x = 1; x <= gridas; x++) {
